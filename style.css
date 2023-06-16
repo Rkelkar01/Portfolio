@@ -1,0 +1,351 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: white;
+}
+
+.nav-link {
+    color: black;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: white;
+    background-color: #34b3c1;
+    border-radius: 5%;
+}
+
+.navbar-brand {
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+ 
+body {
+    background-color: #f8feff;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Hero Section */
+
+.main {
+    background: url('/images/pc.jpg') no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 95vh;
+    box-shadow: 5px 4px 20px 10px rgba(0, 0, 0, 0.40);
+
+}
+
+.main h3 {
+    font-size: 5rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #22b7c8;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: text 2s steps(15) infinite alternate;
+}
+
+@keyframes text {
+    0% {
+        width: 0ch;
+    }
+
+    50% {
+        width: 17ch;
+    }
+}
+
+
+.main h6 {
+    color: white;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    line-height: 1;
+    border-bottom: 4px solid #34b3c1;
+    width: 47%;
+}
+
+
+
+.main .bt1 {
+    height: 40px;
+    width: 130px;
+    outline: none;
+    border: none;
+    background-color: #34b3c1;
+    color: white;
+    border-radius: 4px;
+}
+
+.main .bt1:hover {
+    background-color: transparent;
+    color: #34b3c1;
+    border: 1px solid #34b3c1;
+    transition: 0.5s ;
+}
+
+.main .bt2 {
+    height: 40px;
+    width: 130px;
+    color: white;
+    outline: none;
+    border: 1px solid #2d9da9 ;
+    background-color: transparent;
+    border-radius: 4px;
+}
+
+.main .bt2:hover {
+    background-color: #34b3c1;
+    color: white;
+    border: none ;
+    transition: 0.5s ;
+}
+
+.about img {
+    width: 100%;
+    box-shadow: 6px 4px 29px -10px rgba(0, 0, 0, 0.70);
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+h2 {
+    color: #34b3c1;
+    position: relative;
+    right: 210px;
+    top: 130px;
+    font-family: 'Kalam', cursive;
+    transform: rotate(-90deg);
+    color: #2d9da9;
+    opacity: 70%;
+
+}
+
+.last_p {
+    color: #34b3c1;
+
+}
+
+.progress{
+    background-color: rgb(223,219,219);
+    justify-content: flex-start;
+    border-radius: 50px;
+    align-items: center;
+    position: relative;
+    display: flex;
+    height: 25px;
+    width: 100%;
+    box-shadow: inset 1px -3px 176px -97px rgba(0,0,0,0.50);
+}
+
+.pro-value1{
+    animation: load1 4s normal forwards infinite;
+    border-radius: 50px;
+    background-color: #34b3c1;
+    height: 25px;
+    width: 0;
+}
+
+.progress p{
+    color: white;
+    padding: 5px;
+}
+
+@keyframes load1 {
+   0%{
+    width: 0;
+   }
+   100%{
+    width: 85%;
+   }
+}
+
+.pro-value2{
+    animation: load2 4s normal forwards infinite;
+    border-radius: 50px;
+    background-color: #34b3c1;
+    height: 25px;
+    width:  0;
+}
+
+@keyframes load2{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 65%;
+    }
+}
+
+.pro-value3{
+    animation: load3 4s normal forwards infinite;
+    border-radius: 50px;
+    background-color: #34b3c1;
+    height: 25px;
+    width: 0;
+}
+
+@keyframes load3{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 70%;
+    }
+}
+
+.pro-value4{
+    animation: load4 4s normal forwards infinite;
+    border-radius: 50px;
+    background-color: #34b3c1;
+    height: 25px;
+    width: 0;
+}
+
+@keyframes load4{
+    0%{
+        width:0;
+    }
+    100%{
+        width:85%;
+    }
+}
+
+.pro-value5{
+    animation: load5 4s normal forwards infinite;
+    border-radius: 50px;
+    background-color: #34b3c1;
+    height: 25px;
+    width: 0;
+}
+
+@keyframes load5{
+    0%{
+        width: 0;
+    }
+    100%{
+        width:80%;
+    }
+}
+
+.pro-value6{
+    animation: load6 4s normal forwards;
+    border-radius: 50px;
+    background-color: #34b3c1;
+    height: 25px;
+    width: 0;
+}
+
+@keyframes load6{
+    0%{
+        width:0;
+    }
+    100%{
+        width: 100%;
+    }
+}
+
+.btn1{
+    height: 40px;
+    width: 145px;
+    outline: none;
+    border: none;
+    background-color: #34b3c1;
+    color: white;
+    border-radius: 4px;
+}
+
+.btn1:hover{
+    background-color: transparent;
+    color: #34b3c1;
+    border: 1px solid #34b3c1;
+    transition: 0.5s ;
+}
+
+.btn2{
+    height: 40px;
+    width: 145px;
+    outline: none;
+    border: 1px solid #2d9da9 ;
+    background-color: transparent;
+    border-radius: 4px;
+}
+
+.btn2:hover{
+    background-color: #34b3c1;
+    color: white;
+    border: none ;
+    transition: 0.5s ;
+}
+
+.card{
+    border: none;
+    outline: none;
+    box-shadow: -8px 6px 89px -65px rgba(0, 0, 0, 0.75);
+    
+}
+
+.card p{
+    color: gray;
+}
+
+.circle{
+    height: 70px;
+    width: 70px;
+    background-color: lightgray;
+    color: black;
+    font-size: 30px;
+    border-radius: 50%;
+    padding: 14px;
+    display: inline-block;
+    margin-bottom: 10px;   
+}
+
+.circle:hover{
+    background-color: black;
+    color: white;
+    transition: 0.4s;
+}
+
+.contact .btn3{
+     background-color: black;
+     color: white;
+     outline: none;
+     border :none;
+     height: 40px;
+     width: 140px;
+     border-radius: 4px;
+
+}
+
+.btn3:hover{
+    background: transparent;
+    color: black;
+    border: 1px solid black;
+}
+
+
+.Bottom_Container{
+    background-color: #34b3c1;
+    padding: 30px 0 20px;
+
+}
+
+.Footer{
+    background-color: #34b3c1;
+    color: white;
+    text-decoration: none;
+}
